@@ -15,5 +15,4 @@ jobs:
         run: echo "Test de fonctionnement du Runner !"
       - name: tests de commandes
         run: |
-          echo "Reboot machine" > /home/user/message
           sudo reboot
