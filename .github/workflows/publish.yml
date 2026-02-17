@@ -18,4 +18,4 @@ jobs:
           sudo mkdir -p /var/www/site
           sudo cp index.html /var/www/site/index.html
           sudo chown www-data:www-data /var/www/site/index.html
-          sudo systemctl reload nginX
+          sudo systemctl reload nginx
